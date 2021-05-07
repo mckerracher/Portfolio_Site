@@ -1,0 +1,18 @@
+.line {
+    width: 75%;
+    height: 50%;
+    border-bottom: 1px solid white;
+    -webkit-transform:
+            translateY(0px)
+            translateX(5px)
+            rotate(320deg);
+    position: absolute;
+    left: 50vw;
+}
+
+.exp {
+    position: relative;
+    top: 82vh;
+    left: 80vw;
+    font-size: 45px;
+}

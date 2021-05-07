@@ -1,0 +1,26 @@
+.line {
+    width: 75%;
+    height: 50%;
+    border-bottom: 1px solid white;
+    -webkit-transform:
+            translateY(0px)
+            translateX(5px)
+            rotate(320deg);
+    position: absolute;
+    left: 50vw;
+}
+
+.prj {
+    position: relative;
+    top: 82vh;
+    left: 83vw;
+    font-size: 45px;
+}
+
+.repl {
+    position: relative;
+    left: 2vw;
+    frameBorder: 0;
+    width: 90%;
+    height: 50vh;
+}
