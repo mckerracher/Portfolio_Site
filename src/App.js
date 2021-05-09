@@ -19,8 +19,7 @@ class App extends Component {
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="mr-auto">
-                      <Nav.Link href='/about'>About</Nav.Link>
-                      <Nav.Link href="/Experience">Experience</Nav.Link>
+
                       <NavDropdown title="Projects" id="collapsible-nav-dropdown">
                           <NavDropdown.Item href="/Projects">Projects Home</NavDropdown.Item>
                           <NavDropdown.Item href="#">Hashmap Spell Checker</NavDropdown.Item>
@@ -29,6 +28,9 @@ class App extends Component {
                           <NavDropdown.Item href="#">The Backlog Website</NavDropdown.Item>
                           <NavDropdown.Item href="#">Magic Square</NavDropdown.Item>
                       </NavDropdown>
+
+                      <Nav.Link href='/about'>About</Nav.Link>
+                      <Nav.Link href="/Experience">Experience</Nav.Link>
                   </Nav>
                   <Nav>
                       <Nav.Link href="/Resume">Resume</Nav.Link>

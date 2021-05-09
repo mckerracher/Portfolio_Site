@@ -10,17 +10,3 @@
 /*    left: 50vw;*/
 /*}*/
 
-.prj {
-    position: relative;
-    top: 82vh;
-    left: 83vw;
-    font-size: 45px;
-}
-
-.repl {
-    position: relative;
-    left: 2vw;
-    frameBorder: 0;
-    width: 90%;
-    height: 50vh;
-}
