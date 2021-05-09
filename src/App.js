@@ -13,9 +13,9 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-
-          <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-              <Navbar.Brand href="/">Joshua McKerracher</Navbar.Brand>
+        <div class="navbar">
+          <Navbar collapseOnSelect expand="lg">
+              <Navbar.Brand id="name" href="/">Joshua McKerracher</Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="mr-auto">
@@ -36,7 +36,7 @@ class App extends Component {
                   </Nav>
               </Navbar.Collapse>
           </Navbar>
-
+        </div>
 
 
 
