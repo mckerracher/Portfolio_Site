@@ -10,3 +10,7 @@
 /*    left: 50vw;*/
 /*}*/
 
+.CardContainer {
+    width: 80vw;
+    margin: auto;
+}
