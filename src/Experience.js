@@ -6,7 +6,7 @@ class Experience extends Component {
         return (
             <div className='Experience'>
                 <span className="exp">Experience</span>
-                <div className="line"></div>
+                {/*<div className="line"></div>*/}
             </div>
         );
     }

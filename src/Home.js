@@ -5,8 +5,7 @@ class Home extends Component {
     render() {
         return (
             <div className='Home'>
-                <span className="intro">Software Engineer at Micron Technology</span>
-                <div className="line"></div>
+                <span className="intro">HOME TEXT</span>
             </div>
         );
     }

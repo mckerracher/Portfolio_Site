@@ -1,23 +1,8 @@
-body {
-    background-color: black;
-    color: white;
-}
+
 
 .intro {
     position: relative;
     top: 70vh;
     left: 4vw;
     font-size: 50px;
-}
-
-.line {
-    width: 75%;
-    height: 50%;
-    border-bottom: 1px solid white;
-    -webkit-transform:
-            translateY(0px)
-            translateX(5px)
-            rotate(320deg);
-    position: absolute;
-    left: 50vw;
 }

@@ -1,26 +1,31 @@
-.App-nav {
-    background-color: black;
-    min-height: 5vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    color: white;
-    border-bottom: 1px solid white;
-}
+/*.App-nav {*/
+/*    background-color: black;*/
+/*    min-height: 5vh;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    align-items: center;*/
+/*    justify-content: space-around;*/
+/*    color: white;*/
+/*    border-bottom: 1px solid white;*/
+/*}*/
 
-.active-link {
-  /*color: red;*/
-}
+/*.active-link {*/
+/*  !*color: red;*!*/
+/*}*/
 
-a {
-  font-size: 1rem;
-  text-decoration: none;
-  color: white;
-  transition: all 0.4s ease-out;
-}
+/*a {*/
+/*  font-size: 1rem;*/
+/*  texdecoration: none;*/
+/*  colot-r: white;*/
+/*  transition: all 0.4s ease-out;*/
+/*}*/
 
 .App-nav a:hover {
   color: white;
   cursor: pointer;
+}
+
+body{
+    background: gray;
+    color: white;
 }

@@ -6,7 +6,6 @@ class About extends Component {
     return (
       <div className='About'>
           <span className="abt">About</span>
-          <div className="line"></div>
       </div>
     );
   }

@@ -1,14 +1,14 @@
-.line {
-    width: 75%;
-    height: 50%;
-    border-bottom: 1px solid white;
-    -webkit-transform:
-            translateY(0px)
-            translateX(5px)
-            rotate(320deg);
-    position: absolute;
-    left: 50vw;
-}
+/*.line {*/
+/*    width: 75%;*/
+/*    height: 50%;*/
+/*    border-bottom: 1px solid white;*/
+/*    -webkit-transform:*/
+/*            translateY(0px)*/
+/*            translateX(5px)*/
+/*            rotate(320deg);*/
+/*    position: absolute;*/
+/*    left: 50vw;*/
+/*}*/
 
 .prj {
     position: relative;

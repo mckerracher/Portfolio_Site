@@ -13,32 +13,6 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        {/*<nav className='App-nav'>*/}
-
-        {/*    <NavLink activeClassName='active-link' to='/'>*/}
-        {/*      Home*/}
-        {/*    </NavLink>*/}
-
-        {/*    <NavLink activeClassName='active-link' to='/experience'>*/}
-        {/*      Experience*/}
-        {/*    </NavLink>*/}
-
-        {/*    <NavLink activeClassName='active-link' to='/resume'>*/}
-        {/*      Resume*/}
-        {/*    </NavLink>*/}
-
-        {/*    <NavLink activeClassName='active-link' to='/projects'>*/}
-        {/*      Projects*/}
-        {/*    </NavLink>*/}
-
-        {/*    <NavLink activeClassName='active-link' to='/about'>*/}
-        {/*      About*/}
-        {/*    </NavLink>*/}
-
-        {/*</nav>*/}
-
-
-
 
           <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
               <Navbar.Brand href="/">Joshua McKerracher</Navbar.Brand>
@@ -46,20 +20,19 @@ class App extends Component {
               <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="mr-auto">
                       <Nav.Link href='/about'>About</Nav.Link>
-                      <Nav.Link href="#pricing">Pricing</Nav.Link>
-                      <NavDropdown title="Projects" id="collasible-nav-dropdown">
-                          <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                          <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                          <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                          <NavDropdown.Divider />
-                          <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                      <Nav.Link href="/Experience">Experience</Nav.Link>
+                      <NavDropdown title="Projects" id="collapsible-nav-dropdown">
+                          <NavDropdown.Item href="/Projects">Projects Home</NavDropdown.Item>
+                          <NavDropdown.Item href="#">Hashmap Spell Checker</NavDropdown.Item>
+                          <NavDropdown.Item href="#">Doubly Linked List</NavDropdown.Item>
+                          <NavDropdown.Item href="#">OPaL</NavDropdown.Item>
+                          <NavDropdown.Item href="#">The Backlog Website</NavDropdown.Item>
+                          <NavDropdown.Item href="#">Magic Square</NavDropdown.Item>
                       </NavDropdown>
                   </Nav>
                   <Nav>
-                      <Nav.Link href="#deets">More deets</Nav.Link>
-                      <Nav.Link eventKey={2} href="#memes">
-                          Dank memes
-                      </Nav.Link>
+                      <Nav.Link href="/Resume">Resume</Nav.Link>
+                      <Nav.Link href="https://github.com/mckerracher">Github</Nav.Link>
                   </Nav>
               </Navbar.Collapse>
           </Navbar>

@@ -8,7 +8,7 @@ class Projects extends Component {
                 <span className="prj">Projects</span>
                 <iframe className="repl"
     src="https://replit.com/@JoshuaMcKerrach/HashMap-Spell-Checker?lite=true"/>
-                <div className="line"></div>
+                {/*<div className="line"></div>*/}
 
             </div>
         );

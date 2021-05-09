@@ -6,7 +6,7 @@ class Resume extends Component {
         return (
             <div className='Resume'>
                 <span className="res">Resume</span>
-                <div className="line"></div>
+                {/*<div className="line"></div>*/}
             </div>
         );
     }
