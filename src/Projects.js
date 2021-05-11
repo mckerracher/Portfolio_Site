@@ -14,26 +14,11 @@ class Projects extends Component {
                         <Card.Body>
                             <Card.Title className="text-dark">OPaL - OSU Programming Language Compiler</Card.Title>
                             <Card.Text className="text-dark">
-                                OPaL is a compiler implemented in C/C++ for a dynamically typed language,
-                                that is inspired by Python and C. It produces assembly code modelled after
-                                Java bytecode using a stack machine. An orchestrator tool that is used by the end user, runs the individual
-                                components of the project sequentially and then invokes NASM to output an
-                                executable.
-
-                                The program also generates a number of helpful references, that show the
-                                individual steps taken by the compiler. A HTML report can be generated with the
-                                output shown from each stage, [example](), man pages showing individual source
-                                file usage, source code doxygen report etc.
-
-                                * The project follows the GNU coding standards found
-                                [here](https://www.gnu.org/prep/standards/standards.html#Formatting)
-                                * The code is commented for [Doxygen](https://www.doxygen.nl) and developer
-                                documentation can be found [here](https://mckerracher.github.io/OPaL/)
-
-                                - Team:
-                                - [Kedar Damle](mailto: damlek@oregonstate.edu)
-                                - [Josh Mckerracher](mailto: mckerraj@oregonstate.edu)
-                                - [Sarah Leon](mailto: leons@oregonstate.edu)
+                                OPaL is my senior group project - a compiler implemented in C/C++ and NASM for a
+                                dynamically typed language inspired by Python and C. It produces assembly code modelled after
+                                Java bytecode using a stack machine. An orchestrator tool that is used by the end user
+                                runs the individual components of the project sequentially and then invokes NASM to
+                                output an executable.
                             </Card.Text>
                         </Card.Body>
 
@@ -41,10 +26,11 @@ class Projects extends Component {
 
                     <Card>
                         <Card.Body>
-                            <Card.Title className="text-dark">Card title</Card.Title>
+                            <Card.Title className="text-dark">The Backlog Website</Card.Title>
                             <Card.Text className="text-dark">
-                                This card has supporting text below as a natural lead-in to additional
-                                content.{' '}
+                                A website hosted on Heroku and created with the Python Flask framework that uses MySQL (ClearDB). This website
+                                was created as a team project for my databases course (CS340) at OSU, and the database architecture can be found in the repo under
+                                SQL/report.pdf.
                             </Card.Text>
                         </Card.Body>
 
@@ -58,26 +44,33 @@ class Projects extends Component {
 
                         <Card>
                             <Card.Body>
-                                <Card.Title className="text-dark">Card title</Card.Title>
+                                <Card.Title className="text-dark">Doubly Linked List</Card.Title>
                                 <Card.Text className="text-dark">
-                                    This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This content is a little bit longer.
+                                    This implementation of a doubly linked list was created for my Boise State University
+                                    CS221 class. The architecture for this implementation is defined in the
+                                    IUDoubleLinkedList.java file, which includes all of the methods that must be
+                                    included, along with their required arguments and the kind exception each must
+                                    throw. The generic Java Type is used, which enforces data type uniformity across
+                                    methods.
                                 </Card.Text>
                             </Card.Body>
 
                         </Card>
 
                         <Card>
+                            <a href="/HSC" className="card-link">
                             <Card.Body>
-                                <Card.Title className="text-dark">Card title</Card.Title>
+                                <Card.Title className="text-dark">Hashmap Spell Checker</Card.Title>
                                 <Card.Text className="text-dark">
-                                    This card has supporting text below as a natural lead-in to additional
-                                    content.{' '}
+                                    This is a command line interface spell checking application implemented in C. The
+                                    data structure employed to store and access the dictionary is a hashmap. To calculate
+                                    how similar a word is to a given word in the dictionary, the Levenstein distance is
+                                    computed for the user supplied word.
                                 </Card.Text>
                             </Card.Body>
+                            </a>
 
                         </Card>
-
                     </CardDeck>
 
                 </div>
