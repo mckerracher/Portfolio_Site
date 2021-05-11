@@ -4,8 +4,9 @@ import './Home.css';
 class Home extends Component {
     render() {
         return (
-            <div className='Home'>
-                <span className="intro">HOME TEXT</span>
+            <div className="css-typing">
+                <p>Hi, I'm Josh.</p>
+                <p>I'm a Software Engineer at Micron Technology.</p>
             </div>
         );
     }
