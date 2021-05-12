@@ -5,6 +5,9 @@ import Experience from './Experience';
 import Projects from './Projects';
 import Home from './Home';
 import HSC from './HSC';
+import Bl from './Bl';
+import Opal from './Opal';
+import Dll from './Dll';
 import "./App.css";
 import { Navbar, NavItem, NavDropdown, Nav } from 'react-bootstrap';
 
@@ -22,9 +25,9 @@ class App extends Component {
                       <NavDropdown title="Projects" id="collapsible-nav-dropdown">
                           <NavDropdown.Item href="/Projects">Projects Home</NavDropdown.Item>
                           <NavDropdown.Item href="/HSC">Hashmap Spell Checker</NavDropdown.Item>
-                          <NavDropdown.Item href="#">Doubly Linked List</NavDropdown.Item>
-                          <NavDropdown.Item href="#">OPaL</NavDropdown.Item>
-                          <NavDropdown.Item href="#">The Backlog Website</NavDropdown.Item>
+                          <NavDropdown.Item href="/Dll">Doubly Linked List</NavDropdown.Item>
+                          <NavDropdown.Item href="/Opal">OPaL</NavDropdown.Item>
+                          <NavDropdown.Item href="/Bl">The Backlog Website</NavDropdown.Item>
                       </NavDropdown>
                       <Nav.Link href='/about'>About</Nav.Link>
                       <Nav.Link href="/Experience">Contact</Nav.Link>
