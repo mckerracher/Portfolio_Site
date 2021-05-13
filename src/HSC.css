@@ -1,0 +1,7 @@
+iframe {
+    width: 80vw;
+    height: 85vh;
+    margin: 0 auto;
+    background-color: #777;
+    display:block;
+}

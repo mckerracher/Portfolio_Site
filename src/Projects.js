@@ -11,6 +11,7 @@ class Projects extends Component {
 
                     <CardDeck className="pt-3">
                     <Card>
+                        <a href="/Opal" className="card-link">
                         <Card.Body>
                             <Card.Title className="text-dark">OPaL - OSU Programming Language Compiler</Card.Title>
                             <Card.Text className="text-dark">
@@ -21,10 +22,12 @@ class Projects extends Component {
                                 output an executable.
                             </Card.Text>
                         </Card.Body>
+                        </a>
 
                     </Card>
 
                     <Card>
+                        <a href="/Bl" className="card-link">
                         <Card.Body>
                             <Card.Title className="text-dark">The Backlog Website</Card.Title>
                             <Card.Text className="text-dark">
@@ -33,6 +36,7 @@ class Projects extends Component {
                                 SQL/report.pdf.
                             </Card.Text>
                         </Card.Body>
+                        </a>
 
                     </Card>
 
@@ -43,6 +47,7 @@ class Projects extends Component {
                     <CardDeck className="pt-3">
 
                         <Card>
+                            <a href="/Dll" className="card-link">
                             <Card.Body>
                                 <Card.Title className="text-dark">Doubly Linked List</Card.Title>
                                 <Card.Text className="text-dark">
@@ -54,6 +59,7 @@ class Projects extends Component {
                                     methods.
                                 </Card.Text>
                             </Card.Body>
+                            </a>
 
                         </Card>
 

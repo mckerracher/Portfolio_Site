@@ -113,6 +113,7 @@
         border-color: transparent;
     }
 }
+
 @-webkit-keyframes blink {
     50% {
         border-color: transparent;

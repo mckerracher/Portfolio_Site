@@ -1,11 +1,108 @@
-/*.line {*/
-/*    width: 75%;*/
-/*    height: 50%;*/
-/*    border-bottom: 1px solid white;*/
-/*    -webkit-transform:*/
-/*            translateY(0px)*/
-/*            translateX(5px)*/
-/*            rotate(320deg);*/
-/*    position: absolute;*/
-/*    left: 50vw;*/
-/*}*/
+h1 {
+    position: relative;
+    top: 4vh;
+    text-align: center;
+}
+
+.langs {
+    position: relative;
+    top: 7vh;
+    left: 50vw;
+}
+
+.left {
+    position: relative;
+    left: 1vw;
+    float: left;
+    font-size: 4vh;
+}
+
+.right {
+    float: right;
+    position: relative;
+    font-size: 4vh;
+    left: 4vw;
+}
+
+.python {
+    background-color: gray;
+    margin-bottom: 3vh;
+    position: relative;
+    height: 6vh;
+    width: 48vw;
+}
+
+.inner-python {
+    height: 100%;
+    width: 90%;
+    background-color: rgb(174,198,207);
+}
+
+.java {
+    background-color: gray;
+    margin-bottom: 3vh;
+    position: relative;
+    height: 6vh;
+    width: 48vw;
+}
+
+.inner-java {
+    height: 100%;
+    width: 90%;
+    background-color: rgb(174,198,207);
+}
+
+.C {
+    background-color: gray;
+    margin-bottom: 3vh;
+    position: relative;
+    height: 6vh;
+    width: 48vw;
+}
+
+.inner-C {
+    height: 100%;
+    width: 75%;
+    background-color: rgb(174,198,207);
+}
+
+.javascript {
+    background-color: gray;
+    margin-bottom: 3vh;
+    position: relative;
+    height: 6vh;
+    width: 48vw;
+}
+
+.inner-javascript {
+    height: 100%;
+    width: 70%;
+    background-color: rgb(174,198,207);
+}
+
+.SQL {
+    background-color: gray;
+    margin-bottom: 3vh;
+    position: relative;
+    height: 6vh;
+    width: 48vw;
+}
+
+.inner-SQL {
+    height: 100%;
+    width: 70%;
+    background-color: rgb(174,198,207);
+}
+
+.bash {
+    background-color: gray;
+    position: relative;
+    height: 6vh;
+    width: 48vw;
+}
+
+.inner-bash {
+    height: 100%;
+    width: 70%;
+    background-color: rgb(174,198,207);
+}
