@@ -4,18 +4,12 @@ h1 {
     text-align: center;
 }
 
-img {
-    position: relative;
-    height: 50vh;
-    width: 35vw;
-    top: -40vh;
-    left: 3vw;
-}
 
 .langs {
     position: relative;
     top: 7vh;
     left: 50vw;
+    width: 48vw;
 }
 
 .left {
@@ -30,7 +24,7 @@ img {
     float: right;
     position: relative;
     font-size: 4vh;
-    left: 4vw;
+    left: 2vw;
 }
 
 .python {
@@ -119,6 +113,21 @@ img {
     height: 100%;
     width: 70%;
     background-color: rgb(174,198,207);
+}
+
+.LHS {
+    position: relative;
+    width: 50vw;
+    top: -40vh;
+    font-size: 3.3vh;
+    color: black;
+}
+
+.list{
+    position: relative;
+    width: 40vw;
+    left: 5vw;
+    top: -5vh;
 }
 
 @-webkit-keyframes slide {

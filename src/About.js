@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import './About.css';
+import {ListGroup} from "react-bootstrap";
 
 
 class About extends Component {
@@ -54,9 +55,19 @@ class About extends Component {
                 </div>
 
                 <div className="LHS">
-                    <span className="school">
-                        B.S. Computer Science Oregon State University 2021
-                    </span>
+                    <ListGroup className="list">
+                        <ListGroup.Item variant="dark">DevOps Software Engineer at Micron Technology</ListGroup.Item>
+                        <ListGroup.Item variant="secondary">B.S. Computer Science, Oregon State University, 2021</ListGroup.Item>
+                        <ListGroup.Item variant="dark">B.A. Philosophy, U.C. Santa Cruz, 2010</ListGroup.Item>
+                        <ListGroup.Item variant="secondary">Interests:
+                            <ul>
+                                <li>Web technologies</li>
+                                <li>Big data / ETL</li>
+                                <li>Machine learning</li>
+                                <li>AI</li>
+                            </ul>
+                        </ListGroup.Item>
+                    </ListGroup>
                 </div>
 
             </div>
