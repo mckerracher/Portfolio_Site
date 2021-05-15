@@ -9,6 +9,7 @@ import Bl from './Bl';
 import Opal from './Opal';
 import Dll from './Dll';
 import "./App.css";
+import "./Joshua_McKerracher_Resume.pdf";
 import {Navbar, NavItem, NavDropdown, Nav} from 'react-bootstrap';
 
 class App extends Component {
@@ -34,6 +35,7 @@ class App extends Component {
                                 <Nav.Link href="/Experience">Contact</Nav.Link>
                             </Nav>
                             <Nav>
+                                <Nav.Link href="./Joshua_McKerracher_Resume.pdf" download="./Joshua_McKerracher_Resume.pdf">Resume</Nav.Link>
                                 <Nav.Link href="https://www.linkedin.com/in/joshua-mckerracher/">LinkedIn</Nav.Link>
                                 <Nav.Link href="https://github.com/mckerracher">Github</Nav.Link>
                             </Nav>
