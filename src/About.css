@@ -24,7 +24,7 @@ h1 {
     float: right;
     position: relative;
     font-size: 4vh;
-    left: 2vw;
+    left: 3vw;
 }
 
 .python {
@@ -40,10 +40,13 @@ h1 {
     height: 100%;
     width: 90%;
     background-color: rgb(174,198,207);
+
+    left: -100vw;
+    position: absolute;
     -webkit-animation: slide 0.5s forwards;
-    -webkit-animation-delay: 2s;
+    -webkit-animation-delay: 4s;
     animation: slide 0.5s forwards;
-    animation-delay: 2s;
+    animation-delay: 4s;
 }
 
 .java {
@@ -52,12 +55,20 @@ h1 {
     position: relative;
     height: 6vh;
     width: 48vw;
+    overflow: hidden;
 }
 
 .inner-java {
     height: 100%;
     width: 90%;
     background-color: rgb(174,198,207);
+
+    left: -100vw;
+    position: absolute;
+    -webkit-animation: slide 0.6s forwards;
+    -webkit-animation-delay: 3.4s;
+    animation: slide 0.6s forwards;
+    animation-delay: 3.4s;
 }
 
 .C {
@@ -66,12 +77,20 @@ h1 {
     position: relative;
     height: 6vh;
     width: 48vw;
+    overflow: hidden;
 }
 
 .inner-C {
     height: 100%;
     width: 75%;
     background-color: rgb(174,198,207);
+
+    left: -100vw;
+    position: absolute;
+    -webkit-animation: slide 0.7s forwards;
+    -webkit-animation-delay: 2.7s;
+    animation: slide 0.7s forwards;
+    animation-delay: 2.7s;
 }
 
 .javascript {
@@ -80,12 +99,20 @@ h1 {
     position: relative;
     height: 6vh;
     width: 48vw;
+    overflow: hidden;
 }
 
 .inner-javascript {
     height: 100%;
     width: 70%;
     background-color: rgb(174,198,207);
+
+    left: -100vw;
+    position: absolute;
+    -webkit-animation: slide 0.8s forwards;
+    -webkit-animation-delay: 1.9s;
+    animation: slide 0.8s forwards;
+    animation-delay: 1.9s;
 }
 
 .SQL {
@@ -94,12 +121,20 @@ h1 {
     position: relative;
     height: 6vh;
     width: 48vw;
+    overflow: hidden;
 }
 
 .inner-SQL {
     height: 100%;
     width: 70%;
     background-color: rgb(174,198,207);
+
+    left: -100vw;
+    position: absolute;
+    -webkit-animation: slide 0.9s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 0.9s forwards;
+    animation-delay: 1s;
 }
 
 .bash {
@@ -107,12 +142,21 @@ h1 {
     position: relative;
     height: 6vh;
     width: 48vw;
+
+    overflow: hidden;
 }
 
 .inner-bash {
     height: 100%;
     width: 70%;
     background-color: rgb(174,198,207);
+
+    left: -100vw;
+    position: absolute;
+    -webkit-animation: slide 1s forwards;
+    -webkit-animation-delay: 0s;
+    animation: slide 1s forwards;
+    animation-delay: 0s;
 }
 
 .LHS {
