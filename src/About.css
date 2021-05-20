@@ -13,7 +13,7 @@ h1 {
 }
 
 .left {
-    color: black;
+    color: white;
     position: relative;
     left: 1vw;
     float: left;
@@ -161,10 +161,11 @@ h1 {
 
 .LHS {
     position: relative;
-    width: 50vw;
-    top: -40vh;
+    width: 45vw;
+    top: -45vh;
     font-size: 3.3vh;
     color: black;
+    left: 3vw;
 }
 
 .list{

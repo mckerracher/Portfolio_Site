@@ -70,13 +70,16 @@ class About extends Component {
                 {/*    </ListGroup>*/}
                 {/*</div>*/}
 
-                <div>
-                    Hello! My name is Josh and I enjoy creating things with code. My interest in software started while working on a second bachelor's degree in
-                    Electrical Engineering. Part of the Electrical Engineering curriculum included two Computer Science courses. After my first course in CS in
-                    2019, I was hooked! Since then, I've completed a second bachelor's degree in Computer Science from Oregon State University while working full time.
+                <div className="LHS">
+                    Hello! My name is Josh and I enjoy creating things with code. My interest in software started while
+                    working on a second bachelor's degree in Electrical Engineering in 2019. Part of the Electrical
+                    Engineering curriculum included two Computer Science courses. After the first course in CS, I was hooked!
+                    Since then, I've switched my major to Computer Science and completed a second bachelor's degree from
+                    Oregon State University. I'm now a DevOps Software Engineer at Micron working with a wide
+                    variety of technologies.
 
-                    Two years later and I'm now a DevOps Engineer at Micron Technology working with a wide variety of technologies. Lately the big data/ETL technologies have been
-                    grabbing my interest. I've had the opportunity to work with PySpark, Hadoop, Apache Kafka, Apache Spark, Apache Hive.
+                    My current interests are learning new web technologies, big data ETL/ELT processes, machine learning,
+                    and reinforcement learning (especially adversarial reinforcement learning).
                 </div>
 
             </div>
