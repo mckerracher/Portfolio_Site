@@ -7,7 +7,7 @@ class About extends Component {
     render() {
         return (
             <div className='About'>
-                <h1>About Me</h1>
+                <h1 className="about_header">About Me</h1>
 
                 <div className="langs">
 
