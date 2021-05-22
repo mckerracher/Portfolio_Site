@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './Contact.css';
-import {Button} from "react-bootstrap";
+import MailButton from "./MailButton";
+import {Button, ButtonGroup} from "react-bootstrap";
 
 class Contact extends Component {
     render() {
@@ -10,10 +11,18 @@ class Contact extends Component {
                 <h5 className='ctc'>Whether you've got a question or just want to say hi, my inbox is always open.
                     Feel free to reach out!</h5>
 
-                <div className="buttons">
-                    <div className="darkone"><Button variant="outline-light" mailto="mckerracher@gmail.com">Email</Button>{' '}</div>
-                    <div className="lightone"><Button variant="outline-light">LinkedIn</Button>{' '}</div>
-                </div>
+                {/*<div className="buttons">*/}
+                {/*    <div className="darkone"><Button variant="outline-light" href="mailto:mckerracher@gmail.com">Email</Button>{' '}</div>*/}
+                {/*    /!*<div className="darkone"><MailButton label="Email" mailto="mailto:mckerracher@gmail.com" /></div>*!/*/}
+                {/*    <div className="lightone"><Button variant="outline-light" href="https://www.linkedin.com/in/joshua-mckerracher/">LinkedIn</Button>{' '}</div>*/}
+                {/*</div>*/}
+
+                <ButtonGroup className="buttons">
+                    <Button variant="outline-light" href="mailto:mckerracher@gmail.com">Email</Button>{' '}
+                    <Button variant="outline-light" href="https://www.linkedin.com/in/joshua-mckerracher/">LinkedIn
+                    </Button>{' '}
+                </ButtonGroup>
+
             </div>
         );
     }
