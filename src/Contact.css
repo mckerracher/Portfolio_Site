@@ -16,3 +16,14 @@
 /*    left: 80vw;*/
 /*    font-size: 45px;*/
 /*}*/
+
+h1 {
+    position: relative;
+    top: 20vh;
+}
+
+.ctc {
+    text-align: center;
+    position: relative;
+    top: 25vh;
+}

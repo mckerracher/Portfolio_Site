@@ -24,7 +24,7 @@ h1 {
     float: right;
     position: relative;
     font-size: 4vh;
-    left: 3vw;
+    left: 4vw;
 }
 
 .python {
@@ -164,7 +164,7 @@ h1 {
     width: 45vw;
     top: -45vh;
     font-size: 3.3vh;
-    color: black;
+    color: white;
     left: 3vw;
 }
 

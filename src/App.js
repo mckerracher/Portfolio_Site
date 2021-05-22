@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {Route, Switch, NavLink} from "react-router-dom";
 import About from './About';
-import Experience from './Experience';
+import Contact from './Contact';
 import Projects from './Projects';
 import Home from './Home';
 import HSC from './HSC';
@@ -32,7 +32,7 @@ class App extends Component {
                                     <NavDropdown.Item href="/Bl">The Backlog Website</NavDropdown.Item>
                                 </NavDropdown>
                                 <Nav.Link href='/about'>About</Nav.Link>
-                                <Nav.Link href="/Experience">Contact</Nav.Link>
+                                <Nav.Link href="/Contact">Contact</Nav.Link>
                             </Nav>
                             <Nav>
                                 <Nav.Link href="./Joshua_McKerracher_Resume.pdf" download="./Joshua_McKerracher_Resume.pdf">Resume</Nav.Link>
@@ -47,7 +47,7 @@ class App extends Component {
                 <Switch>
                     <Route exact path='/' component={Home}/>
                     <Route exact path='/About' component={About}/>
-                    <Route exact path='/Experience' component={Experience}/>
+                    <Route exact path='/Contact' component={Contact}/>
                     <Route exact path='/Projects' component={Projects}/>
                     <Route exact path='/HSC' component={HSC}/>
                     <Route exact path='/Dll' component={Dll}/>
