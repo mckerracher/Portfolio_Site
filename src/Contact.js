@@ -17,6 +17,7 @@ class Contact extends Component {
                 {/*    <div className="lightone"><Button variant="outline-light" href="https://www.linkedin.com/in/joshua-mckerracher/">LinkedIn</Button>{' '}</div>*/}
                 {/*</div>*/}
 
+
                 <ButtonGroup className="buttons">
                     <Button variant="outline-light" href="mailto:mckerracher@gmail.com">Email</Button>{' '}
                     <Button variant="outline-light" href="https://www.linkedin.com/in/joshua-mckerracher/">LinkedIn
