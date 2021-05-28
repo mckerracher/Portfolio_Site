@@ -9,7 +9,6 @@ import Bl from './Bl';
 import Opal from './Opal';
 import Dll from './Dll';
 import "./App.css";
-import "./Joshua_McKerracher_Resume.pdf";
 import {Navbar, NavItem, NavDropdown, Nav} from 'react-bootstrap';
 
 class App extends Component {

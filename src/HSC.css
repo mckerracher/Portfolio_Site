@@ -1,7 +1,17 @@
-iframe {
+.repl {
+    position: relative;
     width: 80vw;
     height: 85vh;
     margin: 0 auto;
     background-color: #777;
     display:block;
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+}
+
+.list {
+    position: relative;
+    width: 100%;
+    left: 23vw;
+    top: 3vh;
 }

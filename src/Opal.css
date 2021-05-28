@@ -4,7 +4,7 @@ iframe {
     margin: 0 auto;
     background-color: #777;
     display:block;
-    padding-bottom: 1vh;
+    margin-bottom: 10vh;
 }
 
 h1{
