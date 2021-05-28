@@ -35,7 +35,7 @@ class Opal extends Component {
                         code is in the "src" directory.</li>
                 </ol>
                 </div>
-                <iframe className="repl" src="https://replit.com/@JoshuaMcKerrach/OPaL?lite=true"/>
+                <iframe className="opl_repl" src="https://replit.com/@JoshuaMcKerrach/OPaL?lite=true"/>
 
             </div>
         );

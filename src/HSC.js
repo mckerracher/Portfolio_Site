@@ -22,10 +22,7 @@ class HSC extends Component {
 
                 </ul>
                 </div>
-                <div className="repl">
-                    <iframe src="https://replit.com/@JoshuaMcKerrach/HashMap-Spell-Checker?lite=true"/>
-                </div>
-
+                    <iframe className="HSC_repl" src="https://replit.com/@JoshuaMcKerrach/HashMap-Spell-Checker?lite=true"/>
             </div>
         );
     }
