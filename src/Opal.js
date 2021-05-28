@@ -13,13 +13,13 @@ class Opal extends Component {
                         below and execute the following commands (Note: to paste into the shell, you must right click
                         and paste. Ctrl + V won't work.):
                         <ul>
-                            <li>a) export LD_LIBRARY_PATH=build</li>
-                            <li>b) build/opal --debug --output=output/PaperScissorsRock.bin input/PaperScissorsRock.opl</li>
+                            <li>export LD_LIBRARY_PATH=build</li>
+                            <li>build/opal --debug --output=output/PaperScissorsRock.bin input/PaperScissorsRock.opl</li>
                         </ul>
                     </li>
                     <li>If you want to run the program you just compiled, execute the following command:
                         <ul>
-                            <li>a) ./output/PaperScissorsRock.bin</li>
+                            <li>./output/PaperScissorsRock.bin</li>
                         </ul>
                     </li>
                     <li>If you want to see a report on the compiler's last run, that's possible! Note, after you
@@ -27,15 +27,16 @@ class Opal extends Component {
                         compilation report, I recommend making the shell window smaller. To see the report, run the
                         following commands:
                         <ul>
-                            <li>a) cd report</li>
-                            <li>b) firefox oc_report.html</li>
+                            <li>cd report</li>
+                            <li>firefox oc_report.html</li>
                         </ul>
                     </li>
-                    <li>If you want to see the source code, that's best viewed on Github here. Most of the important
+                    <li>If you want to see the source code, that's best viewed on Github <a href="https://github.com/mckerracher/OPaL">here</a>. Most of the important
                         code is in the "src" directory.</li>
                 </ol>
                 </div>
                 <iframe className="repl" src="https://replit.com/@JoshuaMcKerrach/OPaL?lite=true"/>
+
             </div>
         );
     }
