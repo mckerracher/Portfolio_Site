@@ -6,11 +6,12 @@ class Opal extends Component {
         return (
             <div className='Projects'>
                 <div className="opal">
-                <h4>Note: to paste into the shell, you must right click and paste. Ctrl + V won't work.</h4>
+                <h1>OPaL - OSU Programming Language Compiler</h1>
                 <ol>
                     <li>To execute the makefile, hit the run button (the green play button).</li>
                     <li>If you want to compile a program written in the OPaL language, click on the "shell" tab
-                        below and execute the following commands:
+                        below and execute the following commands (Note: to paste into the shell, you must right click
+                        and paste. Ctrl + V won't work.):
                         <ul>
                             <li>a) export LD_LIBRARY_PATH=build</li>
                             <li>b) build/opal --debug --output=output/PaperScissorsRock.bin input/PaperScissorsRock.opl</li>

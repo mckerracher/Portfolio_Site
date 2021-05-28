@@ -7,10 +7,17 @@ iframe {
     padding-bottom: 1vh;
 }
 
+h1{
+    text-align: center;
+}
+
 h4{
     text-align: center;
 }
+
 .opal{
     position: relative;
     width: 80vw;
+    left: 10vw;
 }
+
