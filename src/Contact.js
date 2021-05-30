@@ -18,12 +18,13 @@ class Contact extends Component {
                 {/*</div>*/}
 
 
-                <ButtonGroup className="buttons">
+                <div>
+                <ButtonGroup className="buttons justify-content-center">
                     <Button variant="outline-light" href="mailto:mckerracher@gmail.com">Email</Button>{' '}
                     <Button variant="outline-light" href="https://www.linkedin.com/in/joshua-mckerracher/">LinkedIn
                     </Button>{' '}
                 </ButtonGroup>
-
+                </div>
             </div>
         );
     }
