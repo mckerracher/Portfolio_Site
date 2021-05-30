@@ -37,7 +37,7 @@ class Opal extends Component {
                 </ol>
                     </div>
                 </div>
-                <iframe className="opl_repl" src="https://replit.com/@JoshuaMcKerrach/OPaL?lite=true"/>
+                <iframe className="opl_repl" src="https://replit.com/@JoshuaMcKerrach/OPaL?lite=true\\"/>
 
             </div>
         );

@@ -8,7 +8,7 @@ class HSC extends Component {
                 <h1>HashMap Spell Checker</h1>
                 <div className="d-flex flex-row justify-content-center">
                 <ul>
-                    <li>To run the spell checker, click on the "shell" tab below and execute the following command:
+                    <li>To run the spell checker, enter the following command in the command line interface below:
                         <ul>
                             <li>./sc</li>
                         </ul>
@@ -16,13 +16,14 @@ class HSC extends Component {
                     <li>To see the source code:
                         <ul>
                             <li>Best option: <a href="https://github.com/mckerracher/HashMap-Spell-Checker">Github</a></li>
-                            <li>On the left hand side of the window, click on the top left icon for "files".</li>
+                            <li>At the bottom of the window click on the "code" icon, and then select the "Files" icon
+                                in the top right corner (main.c contains the majority of the code).</li>
                         </ul>
                     </li>
 
                 </ul>
                 </div>
-                    <iframe className="HSC_repl" src="https://replit.com/@JoshuaMcKerrach/HashMap-Spell-Checker?lite=true"/>
+                    <iframe className="HSC_repl" src="https://replit.com/@JoshuaMcKerrach/HashMap-Spell-Checker?embed=true"/>
             </div>
         );
     }
