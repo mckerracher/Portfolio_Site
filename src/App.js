@@ -34,7 +34,7 @@ class App extends Component {
                                 <Nav.Link href="/Contact">Contact</Nav.Link>
                             </Nav>
                             <Nav>
-                                <Nav.Link href="https://drive.google.com/file/d/1tT38VsQx81W_HEKQv-Fm4YWQghRi5rSP/view?usp=sharing">Resume</Nav.Link>
+                                <Nav.Link href="https://drive.google.com/file/d/107eUjpG_La4pPppqmqsC2bEgNYaobtWZ/view?usp=sharing">Resume</Nav.Link>
                                 <Nav.Link href="https://www.linkedin.com/in/joshua-mckerracher/">LinkedIn</Nav.Link>
                                 <Nav.Link href="https://github.com/mckerracher">Github</Nav.Link>
                             </Nav>
