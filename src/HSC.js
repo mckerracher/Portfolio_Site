@@ -6,7 +6,7 @@ class HSC extends Component {
         return (
             <div className='Projects'>
                 <h1>HashMap Spell Checker</h1>
-                <div className="list">
+                <div className="d-flex flex-row justify-content-center">
                 <ul>
                     <li>To run the spell checker, click on the "shell" tab below and execute the following command:
                         <ul>

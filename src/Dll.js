@@ -6,7 +6,7 @@ class Dll extends Component {
         return (
             <div className='Projects'>
                 <h1>Doubly Linked List</h1>
-                <div className="instructions">
+                <div className="d-flex flex-row justify-content-center">
                 <ul>
                     <li>To see the source code:
                         <ul>

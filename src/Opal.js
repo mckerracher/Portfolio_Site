@@ -7,6 +7,7 @@ class Opal extends Component {
             <div className='Projects'>
                 <div className="opal">
                 <h1>OPaL - OSU Programming Language Compiler</h1>
+                    <div className="d-flex flex-row justify-content-center">
                 <ol>
                     <li>To execute the makefile, hit the run button (the green play button).</li>
                     <li>If you want to compile a program written in the OPaL language, click on the "shell" tab
@@ -34,6 +35,7 @@ class Opal extends Component {
                     <li>If you want to see the source code, that's best viewed on Github <a href="https://github.com/mckerracher/OPaL">here</a>. Most of the important
                         code is in the "src" directory.</li>
                 </ol>
+                    </div>
                 </div>
                 <iframe className="opl_repl" src="https://replit.com/@JoshuaMcKerrach/OPaL?lite=true"/>
 
